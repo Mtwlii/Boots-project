@@ -1,0 +1,106 @@
+.border {
+    border: 1px solid lightblue;
+}
+
+.padding-4 {
+    padding: 4px;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.margin-x-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-element{
+    margin-top:3px;
+    margin-bottom:3px;
+    width: 100%;
+}
+
+.form-element label {
+    width: 33%;
+    display: inline-block;
+}
+
+.form-element input {
+    width: 63%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:3px;
+    border-radius: 2px;
+    border-width: 0.5px;
+}
+
+.form-element input:focus {
+    box-shadow: 0 0 3px #e65400;
+}
+
+
+.margin-y-4{
+    margin-top:4px;
+    margin-bottom:4px;
+}
+.margin-0{
+    margin:0;
+}
+.font-bold {
+    font-weight: bold;
+}
+.text-center {
+    text-align:center;
+}
+.shadow {
+    box-shadow: 0 0 5px #838383;
+    transition: box-shadow 1s ease-out;
+}
+.shadow:hover {
+    box-shadow: 0 0 20px #838383;
+}
+
+.rounded {
+    border-radius: 3px;
+}
+.button-green {
+    color:white;
+    background-color: green;
+    border-color: green;
+}
+.button{
+    padding:3px 10px;
+    border-radius: 5px;
+    width: 25%;
+    transition: width 1s ease-in;
+}
+.button:active{
+    width: 100%;
+    box-shadow: 0 0 3px #e65400;
+}
+
+
+/*input:focus {*/
+/*border: 1px solid navy;*/
+/*}*/
+
+/*input:active {*/
+/*border: 1px solid orange;*/
+/*}*/
+
+/*a:link {*/
+/*color: black;*/
+/*}*/
+
+/*a:visited {*/
+/*color: orange;*/
+/*}*/
+
+/*a:focus {*/
+/*color:red;*/
+/*}*/
+
+/*a:hover {*/
+/*color:blue;*/
+/*}*/
